@@ -1,0 +1,52 @@
+{% extends 'portfolio/base.html' %}
+
+{% block content %}
+<header class="bg-gray-800 text-white text-center p-6">
+    <h1 class="text-4xl font-bold">Guduru Madhu Sudhan Reddy</h1>
+    <p class="mt-2">madhusudhan850062@gmail.com | +91 6309195703</p>
+    <p class="mt-2">
+        <a href="https://www.linkedin.com/in/madhu-sudhan-reddyy/" class="text-blue-400">LinkedIn</a> |
+        <a href="https://github.com/GuduruMadhuSudhanReddy" class="text-blue-400">GitHub</a>
+    </p>
+</header>
+
+<div class="container mx-auto mt-10">
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-3xl font-bold mb-4">Education</h2>
+        <ul class="list-disc list-inside">
+            <li>Masters in Computer Application from Parul University with 7.72 CGPA (2022-2024)</li>
+            <li>Graduation from Sri Krishna Devaraya University with 81% (2018-2021)</li>
+            <li>Intermediate from Sri Satya Sai Junior College with 86.4% (2016-2018)</li>
+            <li>Secondary Education from Zilla Parishad High School with 55% (2015-2016)</li>
+        </ul>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-3xl font-bold mb-4">Career Objective</h2>
+        <p>Enthusiastic and quick-learning fresher with a solid educational background in web development technologies.</p>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-3xl font-bold mb-4">Projects</h2>
+        <h3 class="font-semibold text-xl">E-Tendering Management System</h3>
+        <p><strong>Objective:</strong> Digital platform facilitating the entire tendering process electronically.</p>
+        <p><strong>Technologies used:</strong> Java, MySQL, HTML, CSS, JavaScript.</p>
+
+        <h3 class="font-semibold text-xl">Fake News Detection System Using Machine Learning</h3>
+        <p><strong>Objective:</strong> Automatically identifies false news by analyzing text using algorithms.</p>
+        <p><strong>Technologies used:</strong> Python, Machine Learning.</p>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-3xl font-bold mb-4">Skills</h2>
+        <p>Technical: Python, JavaScript, HTML, CSS, SQL, MySQL, Django.</p>
+        <p>Tools: PyCharm, Eclipse, Git, Bootstrap, VS Code, GitHub, Android Studio.</p>
+        <p>Soft Skills: Quick Learner, Commitment to Work, Willing to Take Instructions and Responsibilities.</p>
+    </section>
+
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h2 class="text-3xl font-bold mb-4">Profile Picture</h2>
+        <img src="{% static 'portfolio/Madhu@.jpg' %}" alt="Profile Picture" class="rounded-full w-32 h-32 mx-auto">
+    </section>
+</div>
+{% endblock %}

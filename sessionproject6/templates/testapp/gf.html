@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gf</title>
+</head>
+<body>
+    <h1>hello {{name}},provide gf Name</h1>
+    <form action="/result">
+
+    {{form.as_p}}
+    {% csrf_token %}
+    <input type="submit" name="" value="submit"/>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pper data</title>
+</head>
+<body>
+    {% for record in records %}
+    <h1>{{record.name}} Information</h1>
+    <ul>
+      <li>Name:{{record.name}}</li>
+      <li>Subject:{{record.subject}}</li>
+      <li>Dept:{{record.dept}}</li>
+      <li>Date:{{record.date}}</li>
+    </ul><hr>
+    {% endfor %}
+
+    
+</body>
+</html>
